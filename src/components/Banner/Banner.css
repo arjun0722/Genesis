@@ -1,0 +1,72 @@
+/* Banner.css */
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+}
+
+.Banner-innerbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-container {
+  flex: 0 0 56%;
+  max-width: 60%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.description {
+  flex: 0 0 38%;
+  padding: 20px;
+}
+
+.description h1 {
+  font-family: "Lato", sans-serif !important;
+  color: #000;
+  font-size: 5.5rem;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.description h2 {
+  font-family: "Lato", sans-serif !important;
+  font-style: normal;
+  font-weight: 300;
+  color: #000;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .Banner-innerbox {
+    flex-direction: column-reverse;
+  }
+
+  .image-container,
+  .description {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .description h1 {
+    font-size: 2.5rem;
+  }
+
+  .description h2 {
+    font-size: 0.8rem;
+  }
+
+  .image {
+    margin-bottom: 20px;
+  }
+}

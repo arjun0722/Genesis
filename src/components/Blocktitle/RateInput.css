@@ -1,0 +1,93 @@
+/* RateInput.css */
+.rate-input-container {
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 32px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.0);
+}
+
+.block-title {
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.block-title p {
+  font-size: 72px;
+  color: #ebebeb;
+  margin: 1px 13px;
+}
+
+.block-title h6 {
+  font-size: 36px;
+  color: #000;
+  margin: 0px 12px;
+  font-family: lato;
+  line-height: 42px;
+  letter-spacing: 0.5px;
+}
+
+.rate {
+  display: flex;
+  flex-direction: column;
+}
+
+.rate label {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.input-box {
+  border-radius: 5px;
+  padding: 7px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.rate div {
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  background-color: white;
+}
+
+.box span {
+  padding: 5px;
+}
+
+.rate input {
+  width: 100px;
+  padding: 5px;
+  font-size: 28px;
+  margin-right: 5px;
+  border: none;
+  text-align: right;
+}
+
+.rate span {
+  font-size: 1rem;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .block-title p {
+    font-size: 48px;
+  }
+
+  .block-title h6 {
+    font-size: 24px;
+  }
+
+  .rate label {
+    font-size: 14px;
+    padding: 5px 12px;
+  }
+
+  .rate input {
+    width: 80px;
+    font-size: 24px;
+  }
+}

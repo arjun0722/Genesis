@@ -1,0 +1,97 @@
+/* SquareCard.css */
+.card-container {
+    width: 370px;
+    height: 370px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    position: relative; /* Needed for the logo and content positioning */
+    overflow: hidden; /* Hide the overflowing content when card moves inward */
+    margin: 26px;
+  }
+  
+  .card-container.active {
+    background-color: violet;
+  }
+  
+  .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .image-container {
+    width: 100%;
+    height: 72%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .card-containeractive{
+    width: 370px;
+    height: 370px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    position: relative; /* Needed for the logo and content positioning */
+    overflow: hidden; /* Hide the overflowing content when card moves inward */
+    margin: 26px;
+    background-color: #a9a9f2;
+  }
+
+  .individual-card{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+  }
+
+  .individual-cardactive{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    color: white;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .text-below-image {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
+  .cards-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-below-imageactive{
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Hover effect on card */
+  .card-container:hover {
+    transform: scale(1.05); /* Scale the card on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
+  }
+  
+  .card-container:hover .image-container {
+    transform: scale(1.1); /* Scale the image container on hover */
+  }
+  

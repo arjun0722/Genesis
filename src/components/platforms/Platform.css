@@ -1,0 +1,45 @@
+.rate-input-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 32px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.0);
+  }
+  
+  .block-title {
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .block-title p {
+    font-size: 72px;
+    color: #ebebeb;
+    margin: 1px 13px;
+  }
+  
+  .block-title h6 {
+    font-size: 36px;
+    color: #000;
+    margin: 0px 12px;
+    font-family: lato;
+    line-height: 42px;
+    letter-spacing: 0.5px;
+  }
+  
+  .box {
+    background-color: white;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .block-title p {
+      font-size: 48px;
+    }
+  
+    .block-title h6 {
+      font-size: 24px;
+      line-height: 25px;
+    }
+  
+  }
+  
